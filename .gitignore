@@ -1,3 +1,4 @@
-images/covers/*
-images/*.psd
-fonts/*
+theme-templateimages/covers/*
+theme-template/images/*.psd
+theme-template/fonts/*
+notes.txt
