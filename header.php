@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Dragon Scribe</title>
 
   <?php
     wp_head();
@@ -43,4 +42,15 @@
         </li>
       </ul>
     </nav>
+
+    <div class="sidebar">
+      <h2 class="sidebar-header">Category</h2>
+      <ul class="sidebar-items">
+        <a href="#" class="sidebar-item">Link</a>
+        <a href="#" class="sidebar-item">Link</a>
+        <a href="#" class="sidebar-item">Link</a>
+        <a href="#" class="sidebar-item">Link</a>
+      </ul>
+    </div>
+    
   </header>
