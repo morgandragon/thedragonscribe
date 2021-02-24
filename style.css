@@ -1,7 +1,7 @@
 /*
 Theme Name: The Dragon Scribe
 Text Domain: The Dragon Scribe
-Version: 1.0
+Version: 1.1
 Description: Personal theme for my art and book blog
 Tags: left-sidebar, responsive
 Author: Morgan Beldyk
@@ -10,7 +10,7 @@ Author URI: http://www.thedragonscribe.com
 
 @font-face {
   font-family: "Aon Cari";
-  src: url("../fonts/AONCC___.TTF");
+  src: url("assets/fonts/AONCC___.TTF");
 }
 
 * {
