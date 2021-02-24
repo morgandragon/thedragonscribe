@@ -1,0 +1,147 @@
+@font-face {
+  font-family: "Aon Cari";
+  src: url("../fonts/AONCC___.TTF");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #323e3a;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  color: #1c1a11;
+}
+
+a {
+  text-decoration: none;
+  color: #323e3a;
+}
+
+a:hover {
+  color: #bfbfbf;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0px;
+  font-family: "Aon Cari", fantasy, sans-serif;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 0px;
+  font-family: "Aon Cari", fantasy, sans-serif;
+}
+
+.banner-header {
+  background-color: #1c1a11;
+  color: #938a82;
+  margin: 0px;
+  display: block;
+}
+
+.banner-image {
+  display: inline-block;
+}
+
+.banner-text {
+  display: inline-block;
+  margin: 20px;
+}
+
+.contact-link {
+  color: #938a82;
+  margin: 0px 50px 0px 50px;
+}
+
+.copyright {
+  color: #bfbfbf;
+  font-size: 80%;
+}
+
+.cover-image {
+  display: block;
+  margin: 10px auto 10px auto;
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+
+.navbar {
+  margin: 0px;
+  background-color: #4c4637;
+  padding: 15px;
+  display: block;
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+
+.nav-items {
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #938a82;
+  margin: 0px 20px 0px 0px;
+}
+
+.post-body {
+  border-radius: 5px;
+  background-color: #938a82;
+  display: inline-block;
+  margin: 20px 15px 50px 15px;
+  padding: 10px;
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+
+.post-heading {
+  color: #323e3a;
+  font-size: 3em;
+  text-align: center;
+}
+
+@media only screen and (max-width: 750px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 751px) {
+  .sidebar {
+    border-radius: 5px;
+    background-color: #4c4637;
+    width: 15%;
+    padding: 10px;
+    margin: 20px;
+    float: left;
+    display: inline-block;
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+  }
+
+  .banner-image {
+    width: 15%;
+  }
+
+  .post-body {
+    width: 70%;
+  }
+
+  .sidebar-header {
+    color: #c0c0c0;
+  }
+
+  .sidebar-items {
+    padding: 0;
+  }
+
+  .sidebar-item {
+    text-decoration: none;
+    color: #938a82;
+    display: block;
+  }
+}
