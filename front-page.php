@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Dragon Scribe</title>
+
+  <?php
+    wp_head();
+  ?>
+  
+</head>
+<body>
+
+  <div class="banner-header">
+    <a href="/">
+      <img src="images/thedragonscribe.png" alt="The Dragon Scribe logo" class="banner-image">
+    </a>
+    <div class="banner-text">
+      <h1>The Dragon Scribe</h1>
+      <h2>Amateur Art, Quality Books</h2>
+    </div>
+  </div>
+  
+  <nav class="navbar">
+    <label for="hamburger">&#9776;</label>
+    <input type="checkbox" id="hamburger"/>
+
+    <ul class="nav-items">
+      <li class="nav-item">
+        <a href="#" class="nav-item-link">Link</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-item-link">Link</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-item-link">Link</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-item-link">Link</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="sidebar">
+    <h2 class="sidebar-header">Category</h2>
+    <ul class="sidebar-items">
+      <a href="#" class="sidebar-item">Link</a>
+      <a href="#" class="sidebar-item">Link</a>
+      <a href="#" class="sidebar-item">Link</a>
+      <a href="#" class="sidebar-item">Link</a>
+    </ul>
+  </div>
+
+  <div class="post-body">
+    <h2 class="post-heading">Blog Post Title</h2>
+    <img src="images/covers/tolkien-fellowship.jpg" alt="The Fellowship of the Ring" class="cover-image">
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae illo neque vel facilis tempora accusantium officiis repudiandae nisi eius cum assumenda, inventore nesciunt temporibus quia excepturi fugit reprehenderit? Saepe nemo minus nostrum ab facilis eius quisquam praesentium similique rerum, aliquid eveniet sed nisi modi id in ad illo voluptas odit.</p>
+    <a href="#">Read More</a>
+  </div>
+
+</body>
+</html>
