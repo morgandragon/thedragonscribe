@@ -7,7 +7,7 @@
     <div class="metadata">
       <span class="metadata-item">
         <?php 
-          the_date(); 
+          echo get_the_date();
         ?>
       </span>
       <span class="metadata-item">
@@ -15,7 +15,7 @@
           the_tags();
         ?>
       </span>
-      <span class="metadata">
+      <span class="metadata-item">
         <?php
           comments_number();
         ?>

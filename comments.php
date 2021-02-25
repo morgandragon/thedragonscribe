@@ -1,4 +1,4 @@
-<div class="comments" id="comments">
+<div class="post-body" id="comments">
 
   <h2 class="comment-reply-title">
     <?php
