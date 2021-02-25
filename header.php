@@ -27,6 +27,19 @@
       <label for="hamburger">&#9776;</label>
       <input type="checkbox" id="hamburger"/>
 
+      <?php
+
+        wp_nav_menu(
+          array(
+            'menu' => 'primary',
+            'container' => '',
+            'theme_location' => 'primary',
+            'items_wrap' => '<ul class="nav-items">%3$s</ul>'
+          )
+        );
+
+      ?>
+
       <ul class="nav-items">
         <li class="nav-item">
           <a href="#" class="nav-item-link">Link</a>
@@ -52,5 +65,5 @@
         <a href="#" class="sidebar-item">Link</a>
       </ul>
     </div>
-    
+
   </header>

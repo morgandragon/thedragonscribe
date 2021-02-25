@@ -14,4 +14,17 @@
 
   add_action('wp_enqueue_scripts', 'thedragonscribe_register_styles');
 
+  function thedragonscribe_menus() {
+
+    $locations = array(
+      'primary' => "Main Navbar",
+      'sidebar' => "Sidebar menu items"
+    );
+
+    register_nav_menus($locations);
+
+  }
+
+  add_action('init', 'thedragonscribe_menus');
+
 ?>
