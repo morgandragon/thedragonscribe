@@ -65,6 +65,33 @@ h2 {
   margin: 20px;
 }
 
+.comment {
+  padding: 10px;
+  margin: 10px;
+}
+
+.comments-form {
+  padding: 10px;
+}
+
+.depth-1 {
+  border-bottom: 1px solid #323e3a;
+}
+
+.comments {
+  border-radius: 5px;
+  background-color: #938a82;
+  display: block;
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+
+.comments-inner {
+  padding: 30px;
+}
+
 .contact-link {
   color: #938a82;
   margin: 0px 50px 0px 50px;
@@ -145,6 +172,8 @@ hr.main {
   }
 
   .post-body {
+    display: block;
+    margin: 20px auto 20px auto;
     width: 90%;
   }
 
