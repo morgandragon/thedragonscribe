@@ -33,6 +33,8 @@
             'title_reply_after' => '</h2>'
           )
         );
+      } else {
+        echo "Comments are turned off for this post";
       }
     ?>
   </div>
