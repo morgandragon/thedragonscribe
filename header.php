@@ -31,7 +31,7 @@
       </div>
     </div>
     
-    <nav class="navbar">
+    <nav class="navbar" aria-label="Main Menu">
       <label for="hamburger">&#9776;</label>
       <input type="checkbox" id="hamburger"/>
 
@@ -50,14 +50,18 @@
 
     </nav>
 
-    <div class="sidebar">
-      <h2 class="sidebar-header">Category</h2>
-      <ul class="sidebar-items">
-        <a href="#" class="sidebar-item">Link</a>
-        <a href="#" class="sidebar-item">Link</a>
-        <a href="#" class="sidebar-item">Link</a>
-        <a href="#" class="sidebar-item">Link</a>
-      </ul>
-    </div>
+    <nav class="sidebar" aria-label="Sidebar Menu">
+      <?php
+
+        wp_nav_menu(
+          array(
+            'menu' => 'sidebar',
+            'container' => '',
+            'theme_location' => 'sidebar',
+            'items_wrap' => '<ul class="sidebar-items">%3$s</ul>'
+          )
+        );
+      ?>
+    </nav>
 
   </header>

@@ -182,15 +182,33 @@ h2 {
 
   .sidebar-header {
     color: #c0c0c0;
+    font-family: "Aon Cari", fantasy, sans-serif;
+    font-size: 1.5em;
+  }
+
+  .sidebar-header a {
+    color: #c0c0c0;
+    text-decoration: none;
   }
 
   .sidebar-items {
+    list-style-type: none;
     padding: 0;
   }
 
   .sidebar-item {
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+  }
+
+  .sidebar-item a {
+    text-decoration: none;
     color: #938a82;
     display: block;
+  }
+
+  .sidebar-item a:hover {
+    color: #bfbfbf;
   }
 }
