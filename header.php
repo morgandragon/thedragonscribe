@@ -15,7 +15,7 @@
   <header>
     <div class="banner-header">
       <a href="/">
-        <img src="assets/images/thedragonscribe.png" alt="The Dragon Scribe logo" class="banner-image">
+        <img src="/wordpress/wp-content/themes/thedragonscribe/assets/images/thedragonscribe.png" alt="The Dragon Scribe logo" class="banner-image">
       </a>
       <div class="banner-text">
         <h1>The Dragon Scribe</h1>
@@ -40,20 +40,6 @@
 
       ?>
 
-      <ul class="nav-items">
-        <li class="nav-item">
-          <a href="#" class="nav-item-link">Link</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-item-link">Link</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-item-link">Link</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-item-link">Link</a>
-        </li>
-      </ul>
     </nav>
 
     <div class="sidebar">
