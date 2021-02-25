@@ -14,12 +14,20 @@
 
   <header>
     <div class="banner-header">
-      <a href="/">
-        <img src="/wordpress/wp-content/themes/thedragonscribe/assets/images/thedragonscribe.png" alt="The Dragon Scribe logo" class="banner-image">
+      <?php
+        if(function_exists('the_custom_logo')) {
+          $custom_logo_id = get_theme_mod('custom_logo');
+          $logo = wp_get_attachment_image_src($custom_logo_id, $size='full');
+        }
+      ?>
+
+      <a href="<?php echo get_home_url() ?>">
+        <img src="<?php echo $logo[0] ?>" alt="The Dragon Scribe logo" class="banner-image">
       </a>
+
       <div class="banner-text">
-        <h1>The Dragon Scribe</h1>
-        <h2>Amateur Art, Quality Books</h2>
+        <h1><?php echo get_bloginfo('name'); ?></h1>
+        <h2><?php echo get_bloginfo('description'); ?></h2>
       </div>
     </div>
     
