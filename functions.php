@@ -34,8 +34,8 @@
       array(
         'before_title' => '<h2>',
         'after_title' => '</h2>',
-        'before_widget' => '',
-        'after_widget' => ''
+        'before_widget' => '<div class="widget">',
+        'after_widget' => '</div>'
       ),
       array(
         'name' => 'Sidebar Area',
