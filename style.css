@@ -23,6 +23,10 @@ Author URI: http://www.thedragonscribe.com
   width: 60%;
 }
 
+.archive-title a {
+  color: #323e3a;
+}
+
 * {
   box-sizing: border-box;
 }

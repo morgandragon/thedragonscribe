@@ -1,8 +1,10 @@
 <div class="archive">
   <h2>
-    <?php
-      the_title();
-    ?>
+    <a href="<?php the_permalink() ?>" class="archive-title">
+      <?php
+        the_title();
+      ?>
+    </a>
   </h2>
 
   <image src="<?php the_post_thumbnail_url("thumbnail"); ?>" class="preview-thumbnail"></image>
