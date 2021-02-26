@@ -1,4 +1,5 @@
-<div class="post-body" id="comments">
+<div class="comments-container">
+  <div class="post-body" id="comments">
 
   <h2 class="comment-reply-title">
     <?php
@@ -39,4 +40,5 @@
     ?>
   </div>
 
+  </div>
 </div>

@@ -84,6 +84,12 @@ h2 {
   margin: 10px;
 }
 
+.comments-container {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
 .comments-form {
   padding: 10px;
 }
@@ -178,6 +184,7 @@ hr.main {
 }
 
 .post-body {
+  text-align: left;
   border-radius: 5px;
   background-color: #938a82;
   display: inline-block;
