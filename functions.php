@@ -29,4 +29,22 @@
 
   add_action('init', 'thedragonscribe_menus');
 
+  function thedragonscribe_widget_areas() {
+    register_sidebar(
+      array(
+        'before_title' => '<h2>',
+        'after_title' => '</h2>',
+        'before_widget' => '',
+        'after_widget' => ''
+      ),
+      array(
+        'name' => 'Sidebar Area',
+        'id' => 'sidebar-1',
+        'description' => 'sidebar widget area'
+      )
+    );
+  }
+
+  add_action('widgets_init', 'thedragonscribe_widget_areas');
+
 ?>

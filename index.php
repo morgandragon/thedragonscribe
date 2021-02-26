@@ -1,23 +1,25 @@
-<?php
-  get_header();
-?>
-
-<?php
-  if (have_posts()) {
-    while(have_posts()) {
-      the_post();
-      
-      get_template_part('template-parts/content', 'archive');
-    }
-  }
-?>
-
-<div class="pagination">
+<div class="shoesie-woosie">
   <?php
-    the_posts_pagination();
+    get_header();
+  ?>
+
+  <?php
+    if (have_posts()) {
+      while(have_posts()) {
+        the_post();
+        
+        get_template_part('template-parts/content', 'archive');
+      }
+    }
+  ?>
+
+  <div class="pagination">
+    <?php
+      the_posts_pagination();
+    ?>
+  </div>
+
+  <?php
+    get_footer();
   ?>
 </div>
-
-<?php
-  get_footer();
-?>

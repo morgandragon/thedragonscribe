@@ -62,6 +62,12 @@
           )
         );
       ?>
+
+      <div class="widget-holder">
+        <?php
+          dynamic_sidebar('sidebar-1')
+        ?>
+      </div>
     </nav>
 
   </header>

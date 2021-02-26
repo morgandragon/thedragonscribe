@@ -123,9 +123,10 @@ hr.main {
 }
 
 .shoesie-woosie {
-  position: relative;
-  min-height: 25vh;
-  padding-bottom: 75px;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -75px;
 }
 
 .hoofie-woofie {
@@ -221,6 +222,10 @@ hr.main {
   width: 15%;
   margin: 20px;
   filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+
+.widget-holder {
+  padding: 10px;
 }
 
 /* SMALL SCREEN */
