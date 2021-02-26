@@ -12,6 +12,12 @@
   }
 ?>
 
+<div class="pagination">
+  <?php
+    the_posts_pagination();
+  ?>
+</div>
+
 <?php
   get_footer();
 ?>

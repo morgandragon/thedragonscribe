@@ -5,7 +5,7 @@
     ?>
   </h2>
 
-  <image src="<?php the_post_thumbnail_url(); ?>" class="preview-thumbnail"></image>
+  <image src="<?php the_post_thumbnail_url("thumbnail"); ?>" class="preview-thumbnail"></image>
   
   <div class="metadata-archive">
     <span class="metadata-item-archive">
