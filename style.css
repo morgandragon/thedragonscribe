@@ -196,6 +196,7 @@ hr.main {
 .pagination {
   text-align: center;
   color: #1c1a11;
+  margin-bottom: 20px;
 }
 
 .pagination a {
@@ -231,6 +232,18 @@ hr.main {
 
 .widget-holder {
   padding: 10px;
+}
+
+.widget-holder h2 {
+  color: #bfbfbf;
+}
+
+.widget-holder a {
+  color: #938a82;
+}
+
+.widget-holder a:hover {
+  color: #bfbfbf;
 }
 
 /* SMALL SCREEN */
