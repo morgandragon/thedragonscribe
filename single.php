@@ -1,4 +1,3 @@
-<div class="shoesie-woosie">
 
   <?php
     get_header();
@@ -18,8 +17,6 @@
     comments_template();
   ?>
 
-  <?php
+<?php
     get_footer();
-  ?>
-
-</div>
+?>

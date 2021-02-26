@@ -1,4 +1,3 @@
-<div class="shoesie-woosie">
   <?php
     get_header();
   ?>
@@ -14,8 +13,8 @@
       }
     ?>
 
-    <?php
-      get_footer();
-    ?>
   </div>
-</div>
+
+<?php
+      get_footer();
+?>

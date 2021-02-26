@@ -12,62 +12,65 @@
 </head>
 <body>
 
-  <header>
-    <div class="banner-header">
-      <?php
-        if(function_exists('the_custom_logo')) {
-          $custom_logo_id = get_theme_mod('custom_logo');
-          $logo = wp_get_attachment_image_src($custom_logo_id, $size='full');
-        }
-      ?>
+  <!-- open wrapper -->
+  <div class="shoesie-woosie">
 
-      <a href="<?php echo get_home_url() ?>">
-        <img src="<?php echo $logo[0] ?>" alt="The Dragon Scribe logo" class="banner-image">
-      </a>
-
-      <div class="banner-text">
-        <h1><?php echo get_bloginfo('name'); ?></h1>
-        <h2><?php echo get_bloginfo('description'); ?></h2>
-      </div>
-    </div>
-    
-    <nav class="navbar" aria-label="Main Menu">
-      <label for="hamburger">&#9776;</label>
-      <input type="checkbox" id="hamburger"/>
-
-      <?php
-
-        wp_nav_menu(
-          array(
-            'menu' => 'primary',
-            'container' => '',
-            'theme_location' => 'primary',
-            'items_wrap' => '<ul class="nav-items">%3$s</ul>'
-          )
-        );
-
-      ?>
-
-    </nav>
-
-    <nav class="sidebar" aria-label="Sidebar Menu">
-      <?php
-
-        wp_nav_menu(
-          array(
-            'menu' => 'sidebar',
-            'container' => '',
-            'theme_location' => 'sidebar',
-            'items_wrap' => '<ul class="sidebar-items">%3$s</ul>'
-          )
-        );
-      ?>
-
-      <div class="widget-holder">
+    <header>
+      <div class="banner-header">
         <?php
-          dynamic_sidebar('sidebar-1')
+          if(function_exists('the_custom_logo')) {
+            $custom_logo_id = get_theme_mod('custom_logo');
+            $logo = wp_get_attachment_image_src($custom_logo_id, $size='full');
+          }
         ?>
-      </div>
-    </nav>
 
-  </header>
+        <a href="<?php echo get_home_url() ?>">
+          <img src="<?php echo $logo[0] ?>" alt="The Dragon Scribe logo" class="banner-image">
+        </a>
+
+        <div class="banner-text">
+          <h1><?php echo get_bloginfo('name'); ?></h1>
+          <h2><?php echo get_bloginfo('description'); ?></h2>
+        </div>
+      </div>
+      
+      <nav class="navbar" aria-label="Main Menu">
+        <label for="hamburger">&#9776;</label>
+        <input type="checkbox" id="hamburger"/>
+
+        <?php
+
+          wp_nav_menu(
+            array(
+              'menu' => 'primary',
+              'container' => '',
+              'theme_location' => 'primary',
+              'items_wrap' => '<ul class="nav-items">%3$s</ul>'
+            )
+          );
+
+        ?>
+
+      </nav>
+
+      <nav class="sidebar" aria-label="Sidebar Menu">
+        <?php
+
+          wp_nav_menu(
+            array(
+              'menu' => 'sidebar',
+              'container' => '',
+              'theme_location' => 'sidebar',
+              'items_wrap' => '<ul class="sidebar-items">%3$s</ul>'
+            )
+          );
+        ?>
+
+        <div class="widget-holder">
+          <?php
+            dynamic_sidebar('sidebar-1')
+          ?>
+        </div>
+      </nav>
+
+    </header>

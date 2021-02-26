@@ -13,6 +13,11 @@ Author URI: http://www.thedragonscribe.com
   src: url("assets/fonts/AONCC___.TTF");
 }
 
+html,
+body {
+  height: 100%;
+}
+
 .archive {
   border-radius: 5px;
   background-color: #938a82;
@@ -124,20 +129,20 @@ hr.main {
 
 .shoesie-woosie {
   min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  margin: 0 auto -75px;
+  margin-bottom: -75px;
+  position: relative;
+}
+
+.sockie-wockie {
+  height: 75px;
+  clear: both;
 }
 
 .hoofie-woofie {
   color: #938a82;
-  width: 100%;
-  height: 75px;
-  margin: 0;
-  padding: 20px;
-  bottom: 0px;
-  position: absolute;
   background-color: #1c1a11;
+  height: 75px;
+  position: relative;
 }
 
 .metadata {

@@ -1,4 +1,3 @@
-<div class="shoesie-woosie">
   <?php
     get_header();
   ?>
@@ -15,7 +14,6 @@
         ?>
     </article>
 
-  <?php
+<?php
     get_footer();
-  ?>
-</div>
+?>
