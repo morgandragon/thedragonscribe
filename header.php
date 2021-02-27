@@ -54,17 +54,6 @@
       </nav>
 
       <nav class="sidebar" aria-label="Sidebar Menu">
-        <?php
-
-          wp_nav_menu(
-            array(
-              'menu' => 'sidebar',
-              'container' => '',
-              'theme_location' => 'sidebar',
-              'items_wrap' => '<ul class="sidebar-items">%3$s</ul>'
-            )
-          );
-        ?>
 
         <div class="widget-holder">
           <?php

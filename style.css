@@ -123,25 +123,44 @@ h2 {
   filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
 }
 
+.footer-widget-area {
+  padding: 10px;
+  text-align: center;
+  color: #938a82;
+  font-size: 0.75em;
+}
+
+.footer-widget-area p {
+  color: #bfbfbf;
+}
+
+.footer-widget-area a {
+  color: #938a82;
+}
+
+.footer-widget-area a:hover {
+  color: #bfbfbf;
+}
+
 hr.main {
   border-top: 1px solid #323e3a;
 }
 
 .shoesie-woosie {
   min-height: 100%;
-  margin-bottom: -75px;
+  margin-bottom: -90px;
   position: relative;
 }
 
 .sockie-wockie {
-  height: 75px;
+  height: 90px;
   clear: both;
 }
 
 .hoofie-woofie {
   color: #938a82;
   background-color: #1c1a11;
-  height: 75px;
+  height: 90px;
   position: relative;
 }
 
@@ -232,10 +251,13 @@ hr.main {
 
 .widget-holder {
   padding: 10px;
+  color: #1c1a11;
 }
 
-.widget-holder h2 {
-  color: #bfbfbf;
+.widget-holder h3 {
+  color: #c0c0c0;
+  font-family: "Aon Cari", fantasy, sans-serif;
+  font-size: 1.25em;
 }
 
 .widget-holder a {
@@ -306,37 +328,5 @@ hr.main {
 
   .post-body {
     width: 70%;
-  }
-
-  .sidebar-header {
-    color: #c0c0c0;
-    font-family: "Aon Cari", fantasy, sans-serif;
-    font-size: 1.25em;
-  }
-
-  .sidebar-header a {
-    color: #c0c0c0;
-    text-decoration: none;
-  }
-
-  .sidebar-items {
-    list-style-type: none;
-    padding: 0;
-  }
-
-  .sidebar-item {
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.75em;
-  }
-
-  .sidebar-item a {
-    text-decoration: none;
-    color: #938a82;
-    display: block;
-  }
-
-  .sidebar-item a:hover {
-    color: #bfbfbf;
   }
 }

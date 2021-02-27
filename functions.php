@@ -19,8 +19,7 @@
   function thedragonscribe_menus() {
 
     $locations = array(
-      'primary' => "Main Navbar",
-      'sidebar' => "Sidebar menu items"
+      'primary' => "Main Navbar"
     );
 
     register_nav_menus($locations);
@@ -32,15 +31,25 @@
   function thedragonscribe_widget_areas() {
     register_sidebar(
       array(
-        'before_title' => '<h2>',
-        'after_title' => '</h2>',
+        'before_title' => '<h3>',
+        'after_title' => '</h3>',
         'before_widget' => '<div class="widget">',
-        'after_widget' => '</div>'
-      ),
-      array(
+        'after_widget' => '</div>',
         'name' => 'Sidebar Area',
         'id' => 'sidebar-1',
         'description' => 'sidebar widget area'
+      )
+    );
+
+    register_sidebar(
+      array(
+        'before_title' => '',
+        'after_title' => '',
+        'before_widget' => '',
+        'after_widget' => '',
+        'name' => 'Footer Area',
+        'id' => 'footer-1',
+        'description' => 'footer widget area'
       )
     );
   }
