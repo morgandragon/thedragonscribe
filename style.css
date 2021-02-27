@@ -18,6 +18,29 @@ body {
   height: 100%;
 }
 
+#searchsubmit,
+#submit {
+  border-radius: 10px;
+  border-style: none;
+  font-family: Arial;
+  color: #938a82;
+  font-size: 0.7em;
+  background: #323e3a;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+
+#searchsubmit:hover {
+  background: #938a82;
+  color: #bfbfbf;
+  text-decoration: none;
+}
+
+#submit:hover {
+  background-color: #4c4637;
+}
+
 .archive {
   min-width: 100%;
   border-radius: 5px;
@@ -99,6 +122,11 @@ h2 {
   width: 100%;
   text-align: center;
   padding: 20px;
+  color: #1c1a11;
+}
+
+.comments-container h2 {
+  color: #323e3a;
 }
 
 .comments-form {
