@@ -52,6 +52,18 @@
         'description' => 'footer widget area'
       )
     );
+
+    register_sidebar(
+      array(
+        'before_title' => '',
+        'after_title' => '',
+        'before_widget' => '',
+        'after_widget' => '',
+        'name' => 'Navbar Area',
+        'id' => 'navbar-1',
+        'description' => 'navbar widget area'
+      )
+    );
   }
 
   add_action('widgets_init', 'thedragonscribe_widget_areas');

@@ -28,6 +28,12 @@ body {
   filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
 }
 
+.screen-reader-text {
+  font-size: 0.75em;
+  color: #1c1a11;
+  padding: 10px;
+}
+
 .archive-title a {
   color: #323e3a;
 }
@@ -192,9 +198,15 @@ hr.main {
   filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
 }
 
-.navbar label,
+.ham-label,
 #hamburger {
   display: none;
+}
+
+.nav-widget-holder {
+  position: absolute;
+  right: 20px;
+  top: 25%;
 }
 
 .nav-items {
@@ -284,7 +296,7 @@ hr.main {
     width: 90%;
   }
 
-  .navbar label {
+  .ham-label {
     display: inline-block;
     color: #938a82;
     font-size: 3em;

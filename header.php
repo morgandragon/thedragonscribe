@@ -35,7 +35,7 @@
       </div>
       
       <nav class="navbar" aria-label="Main Menu">
-        <label for="hamburger">&#9776;</label>
+        <label for="hamburger" class="ham-label">&#9776;</label>
         <input type="checkbox" id="hamburger"/>
 
         <?php
@@ -50,6 +50,12 @@
           );
 
         ?>
+
+        <div class="nav-widget-holder">
+          <?php
+            dynamic_sidebar('navbar-1');
+          ?>
+        </div>
 
       </nav>
 
