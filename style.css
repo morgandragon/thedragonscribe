@@ -152,8 +152,9 @@ h2 {
 }
 
 .cover-image {
-  display: block;
-  margin: 10px auto 10px auto;
+  width: 30%;
+  float: left;
+  margin: 20px;
   filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
 }
 

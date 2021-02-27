@@ -18,7 +18,9 @@
         ?>
       </span>
     </div>
-  <hr class="main">
+    <hr class="main">
+    <image src="<?php the_post_thumbnail_url("full"); ?>" class="cover-image"></image>
+
     <?php
       the_content();
     ?>
