@@ -19,10 +19,11 @@ body {
 }
 
 .archive {
+  min-width: 100%;
   border-radius: 5px;
   background-color: #938a82;
   display: inline-block;
-  margin: 20px 50px;
+  margin: 20px auto;
   padding: 10px;
   filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
 }
@@ -303,6 +304,10 @@ hr.main {
   .navbar input:checked ~ .nav-items {
     display: block;
   }
+
+  .archive-container {
+    padding: 20px;
+  }
 }
 
 /* LARGE SCREEN */
@@ -330,6 +335,7 @@ hr.main {
   }
 
   .archive-container {
+    padding: 20px;
     width: 70%;
     display: inline-block;
   }
